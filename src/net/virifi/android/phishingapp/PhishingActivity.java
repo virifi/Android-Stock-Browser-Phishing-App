@@ -14,12 +14,10 @@ public class PhishingActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.phishing_activity);
 		
-		/*
 		Bundle extras = getIntent().getExtras();
 		if (extras == null) return;
 		String url = extras.getString("url");
 		if (url == null) return;
-		*/
 		
 		WebView webView = (WebView) findViewById(R.id.webView1);
 		webView.setWebViewClient(new WebViewClient() {});
@@ -31,6 +29,7 @@ public class PhishingActivity extends Activity {
 				startActivity(intent);
 			}
 		}, "js_interface");
+		
 		//webView.loadUrl(url);
 		webView.loadUrl("file:///android_asset/phishing.html");
 		
