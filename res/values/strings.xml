@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">PhishingApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">PhishingApp</string>
+    <string name="app_description">このアプリは標準ブラウザの履歴を監視することにより、ある特定のURLを標準ブラウザでアクセスしようとした際、最前面に出現し偽のページを表示させることができるということを示す実証アプリです。\nこのアプリの実際の動作としては、三井住友銀行のスマートフォンサイトのログインページへのアクセスをフックし、テキストボックスとボタンが設置してあるページを表示します。そのページのボタンを押すと標準ブラウザを立ち上げ入力された語でGoogle検索します。このアプリが要求する権限は「ブラウザの履歴情報・ブックマークの利用」のみで、「インターネットアクセス」は必要ありません。</string>
+
+</resources>

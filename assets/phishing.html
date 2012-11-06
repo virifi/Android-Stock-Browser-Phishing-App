@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8" />
+	<title>フィッシングページ</title>
+	<script type="text/javascript" src="./jquery-1.8.2.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('form').submit(function() {
+			var search_word = $('#search_word').val();
+			js_interface.send(search_word);
+			return false;
+		});
+	});
+	</script>
+</head>
+<body>
+	<h1>このページは三井住友銀行のページではありません</h1>
+	<p>PhishingAppが内部に持つ偽ページを表示しています。絶対に三井住友銀行オンラインバンキングのアカウント情報は入力しないでください。</p>
+	<p>このページはインターネットアクセスの権限がなくてもこのページで入力された文字をサーバーに送信できることを示すためのページです。</p>
+	<p>下のテキストボックスに何らかの文字(アカウント情報は入力しないでください)を入力し「Googleで検索」ボタンを押すと、標準ブラウザを立ち上げ入力された語で検索します。</p>
+	<form>
+		<p><input type="text" id="search_word" /><input id="send" value="Googleで検索" type="submit"></p>
+	</form>
+</body>
+</html>
