@@ -17,7 +17,7 @@ Android標準ブラウザ利用者を標的としたフィッシングアプリ�
 
 ### スクリーンショット
 
-![スクリーンショット](https://raw.github.com/virifi/PlayAppInstaller/master/readme_imgs/screenshot1-small.png)
+![スクリーンショット](https://raw.github.com/virifi/Android-Stock-Browser-Phishing-App/master/readme_imgs/screenshot1-small.png)
 
 ### ライセンス
 
